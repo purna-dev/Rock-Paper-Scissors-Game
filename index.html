@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone :: Paper :: Scissor</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="scores">
+            <div class="s_l">
+                <h1>ROCK</h1>
+                <h1>PAPER</h1>
+                <h1>SCISSORS</h1>
+            </div>
+            <div class="s_r">
+                <div class="s_box">
+                    <span>COMPUTER <br>SCORE</span>
+                    <h1 id="p2">0</h1>
+                </div>
+
+                <div class="s_box">
+                    <span>YOUR <br>SCORE</span>
+                    <h1 id="p1">0</h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="game">
+
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+            <div class="g_t">
+                <div id="rock">
+                    <img src="img/rock.png" alt="">
+
+                </div>
+                <div id="scissors">
+                    <img src="img/s.png" alt="">
+                </div>
+            </div>
+            <div class="g_b">
+                <div id="paper">
+                    <img src="img/paper.png" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="game_selected">
+
+            <div class="circles">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="circles2">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="g_p1">
+                <span>you picked</span>
+
+                <div>
+                    <img src="img/rock.png" alt="">
+
+                </div>
+
+                <div>
+                    <img src="img/paper.png" alt="">
+
+                </div>
+
+                <div>
+                    <img src="img/s.png" alt="">
+
+                </div>
+
+            </div>
+<!-- win or lose -->
+            <div class="g_w_l">
+
+                <p>you win</p>
+                <p>against pc</p>
+
+                <button>play again</button>
+
+            </div>
+
+            <div class="g_p2">
+                <span>pc picked</span>
+
+                <div>
+                    <img src="img/rock.png" alt="">
+
+                </div>
+
+                <div>
+                    <img src="img/paper.png" alt="">
+
+                </div>
+
+                <div>
+                    <img src="img/s.png" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="rules">
+            <div class="rule_box">
+
+                <div class="close">
+                    <img src="img/X.png" alt="">
+                </div>
+
+                <h2>Game Rules</h2>
+                <ul>
+                    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                    <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock,
+                        paper, scissors.”</li>
+                    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                    <li>
+                        If both players lay down the same hand, each player lays down another hand
+                    </li>
+                </ul>
+            </div>
+            <button id="next">next</button>
+            <button id="btn_rule">rules</button>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
